@@ -1,4 +1,4 @@
-#include <math.h>/*Não precisava disso. Era só importar no shell: gcc -o *** ***.c -lm */
+#include <math.h>/*Não precisava disso. Era só importar no shell: gcc -o -nome_do_output_novo- -nome_do_arquivo.c- -lm */
 #include <stdio.h>
 
 int main() {
