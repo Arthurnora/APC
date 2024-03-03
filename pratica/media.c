@@ -14,7 +14,7 @@ int main() {
 
   media = roundf(media * 1000) / 1000;
 
-  printf("A média é: %.3f\n", media);
+  printf("A média é: %.2f\n", media);
 
   if (p1 < 10 && p1 > 0 && p2 < 10 && p2 > 0) {
     printf("Notas válidas\n");
