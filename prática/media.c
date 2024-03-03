@@ -11,7 +11,7 @@ int main() {
 
   float media = (0.4 * p1) + (0.6 * p2);
 
-  printf("A média é: %f\n", media);
+  printf("A média é: %.2f\n", media);
 
   if (p1 < 10 && p1 > 0 && p2 < 10 && p2 > 0) {
     printf("Notas válidas\n");
