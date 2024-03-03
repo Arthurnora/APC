@@ -1,4 +1,4 @@
-#include <math.h>
+#include <math.h>/*Não precisava disso. Era só importar no shell: gcc -o *** ***.c -lm */
 #include <stdio.h>
 
 int main() {
