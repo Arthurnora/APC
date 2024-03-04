@@ -7,12 +7,12 @@ int main(void) {
   int base = 1.0;
   int altura = 1.0;
 
-  printf("Digite a base do triângulo: ");
+  printf("Digite a base do triângulo:\n ");
   scanf("%d", &base);
-  printf("Digite a altura do triângulo: ");
+  printf("Digite a altura do triângulo:\n ");
   scanf("%d", &altura);
 
-  float areaT = (base * altura / 2);
+  float areaT = (base * altura / 2.0);
   
   
   printf("A área do triângulo é: %.2f\n", areaT);
