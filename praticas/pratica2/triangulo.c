@@ -10,14 +10,18 @@ int main(void) {
   printf("Digite a altura do triângulo: ");
   scanf("%f", &altura);
 
-  if (base <= 0 || altura <= 0) {
-    printf("A base e a altura do triângulo tem que ser maiores que 0.\n");
-    return 1; 
+  if (base <= 0) {
+    printf("A base do triângulo tem que ser maior que 0.\n");
+    return 1;
+  }
+  if (altura <= 0) {
+    printf("A altura do triângulo tem que ser maior que 0.\n");
+    return 1;
   }
 
-  float area = base * altura / 2.0;
+  float area = (base * altura) / 2.0;
 
-  printf("A área do triângulo é: %.2f\n", area);
+  printf("A área do triângulo é: %.3f\n", area);
 
   return 0;
 }
