@@ -2,16 +2,20 @@
  * 2). Considere base e altura números inteiros maior que 0.*/
 #include "stdio.h"
 int main(void) {
-  float base = 1.0;
-  float altura = 1.0;
-
-  float areaT = (base * altura / 2);
+  
+  
+  int base = 1.0;
+  int altura = 1.0;
 
   printf("Digite a base do triângulo: ");
-  scanf("%f", &base);
+  scanf("%d", &base);
   printf("Digite a altura do triângulo: ");
-  scanf("%f", &altura);
-  printf("A área do triângulo é: %f\n", areaT);
+  scanf("%d", &altura);
+
+  float areaT = (base * altura / 2);
+  
+  
+  printf("A área do triângulo é: %.2f\n", areaT);
 
   return 0;
 }
