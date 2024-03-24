@@ -1,4 +1,4 @@
-/*6. Faça um programa em C que converta um valor qualquer em gigabytes para um valor em bytes (1GB = 1024³Bytes) */
+/*5. Faça um programa em C que converta um valor qualquer em gigabytes para um valor em bytes (1GB = 1024³Bytes) */
 #include <stdio.h>
 #include <math.h>
 
