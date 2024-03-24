@@ -1,4 +1,4 @@
-/*Faça um programa em C que calcule a média final a partir da fórmula (0.4 * A1) + (0.6 * A2). Considere A1 e A2 números reais entre 0 a 10.*/
+/*1.Faça um programa em C que calcule a média final a partir da fórmula (0.4 * A1) + (0.6 * A2). Considere A1 e A2 números reais entre 0 a 10.*/
 
 
 #include <math.h>/*Não precisava disso. Era só importar no shell: gcc -o -nome_do_output_novo- -nome_do_arquivo.c- -lm */
